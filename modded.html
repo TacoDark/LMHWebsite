@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modded Games - Lemons Modding Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            margin: 2em auto;
+            max-width: 1400px;
+            gap: 2em;
+        }
+        .main-content {
+            flex: 1 1 0;
+        }
+        .info-box {
+            background: #181818;
+            border-radius: 12px;
+            padding: 2em;
+            margin-bottom: 2em;
+            text-align: center;
+            box-shadow: 0 0 10px #0008;
+            color: #ffe082;
+            font-size: 1.1em;
+        }
+        .mod-list {
+            display: flex;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+        .mod-card {
+            background: #181818;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #0008;
+            padding: 1.5em;
+            min-width: 320px;
+            max-width: 350px;
+            flex: 1 1 320px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2em;
+        }
+        .mod-card h3 {
+            margin: 0 0 0.5em 0;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        }
+        .tags {
+            margin-bottom: 0.7em;
+        }
+        .tag {
+            display: inline-block;
+            background: #222;
+            color: #fff;
+            border-radius: 6px;
+            font-size: 0.8em;
+            padding: 0.2em 0.7em;
+            margin-right: 0.3em;
+            margin-bottom: 0.2em;
+        }
+        .tag.verified {
+            background: #1976d2;
+        }
+        .tag.premium {
+            background: #ffd600;
+            color: #222;
+        }
+        .tag.free {
+            background: #66bb6a;
+        }
+        .mod-card ul {
+            margin: 0.5em 0 1em 1.2em;
+            color: #a5d6a7;
+        }
+        .mod-card .pros {
+            color: #a5d6a7;
+        }
+        .mod-card .neutral {
+            color: #ffe082;
+        }
+        .mod-card .cons {
+            color: #ef9a9a;
+        }
+        .mod-card .links {
+            margin-top: auto;
+            display: flex;
+            gap: 0.5em;
+        }
+        .mod-card .links a {
+            background: #222;
+            color: #fff;
+            padding: 0.4em 1em;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: background 0.2s;
+        }
+        .mod-card .links a:hover {
+            background: #e53935;
+        }
+        .mod-card .price {
+            margin-top: 1em;
+            font-weight: bold;
+            color: #66bb6a;
+        }
+        .mod-card .price.paid {
+            color: #ffd600;
+        }
+        .featured {
+            background: #181818;
+            border-radius: 12px;
+            padding: 1em;
+            margin-left: 2em;
+            min-width: 200px;
+            max-width: 220px;
+            box-shadow: 0 0 10px #0008;
+            color: #fff;
+        }
+        .featured h2 {
+            color: #e53935;
+            margin-top: 0;
+        }
+        @media (max-width: 1100px) {
+            .container {
+                flex-direction: column;
+                gap: 0;
+            }
+            .featured {
+                margin-left: 0;
+                margin-top: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="main-content">
+            <div class="info-box">
+                These mods are made by the community. Not all mods may work.
+            </div>
+            <div style="color:#aaa;margin-bottom:1em;">
+                Showing <b>3</b> of <b>3</b> exploits
+            </div>
+            <div class="mod-list">
+                <div class="mod-card">
+                    <h3>Zenith</h3>
+                    <div class="tags">
+                        <span class="tag verified">Verified</span>
+                        <span class="tag premium">Premium</span>
+                    </div>
+                    <div style="font-size:0.95em;color:#bbb;">The best overall value exploit.<br>Level 8 &bull; Last edited by Lemons Modding Hub</div>
+                    <ul class="pros">
+                        <li>Amazing uptime, stability &amp; power</li>
+                        <li>The best overall value</li>
+                        <li>Has a decompiler</li>
+                        <li>100% sUNC</li>
+                        <li>Level 8</li>
+                    </ul>
+                    <div class="links">
+                        <a href="#">Website</a>
+                        <a href="#">UNC &lt;/&gt;</a>
+                        <a href="#">INFO</a>
+                    </div>
+                    <div class="price paid">$6.49 <span style="font-weight:normal;">weekly</span></div>
+                </div>
+                <div class="mod-card">
+                    <h3>Wave</h3>
+                    <div class="tags">
+                        <span class="tag verified">Verified</span>
+                        <span class="tag premium">Premium</span>
+                    </div>
+                    <div style="font-size:0.95em;color:#bbb;">Amazing exploit with regular updates.<br>Level 8 &bull; Last edited by Lemons Modding Hub</div>
+                    <ul class="pros">
+                        <li>Amazing updating schedule</li>
+                        <li>Has a decompiler</li>
+                        <li>100% sUNC</li>
+                        <li>Level 8</li>
+                    </ul>
+                    <div class="links">
+                        <a href="#">Website</a>
+                        <a href="#">UNC &lt;/&gt;</a>
+                        <a href="#">INFO</a>
+                    </div>
+                    <div class="price paid">$7.49 <span style="font-weight:normal;">weekly</span></div>
+                </div>
+                <div class="mod-card">
+                    <h3>Swift</h3>
+                    <div class="tags">
+                        <span class="tag verified">Verified</span>
+                        <span class="tag free">Free</span>
+                    </div>
+                    <div style="font-size:0.95em;color:#bbb;">The free Level 8 exploit to use.<br>Level 8 &bull; Last edited by Lemons Modding Hub</div>
+                    <ul class="pros">
+                        <li>Has a lifetime option</li>
+                        <li>Has a decompiler</li>
+                        <li>100% sUNC</li>
+                        <li>Level 8</li>
+                    </ul>
+                    <ul class="neutral">
+                        <li>Early build – bugs may occur.</li>
+                    </ul>
+                    <div class="links">
+                        <a href="#">Website</a>
+                        <a href="#">UNC &lt;/&gt;</a>
+                        <a href="#">INFO</a>
+                    </div>
+                    <div class="price">FREE</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
