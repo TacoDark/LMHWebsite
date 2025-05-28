@@ -5,27 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lemons Modding Hub</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        nav {
+            background: #1a1a1a;
+            padding: 0.5em 2em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            border-bottom: 2px solid #222;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5em;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        nav a:hover, nav a.active {
+            background: #e53935;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 2em;
+            background: #181818;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #0008;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        header h1 {
+            margin: 0 0 0.5em 0;
+            color: #ffe082;
+        }
+        main section {
+            background: #222;
+            border-radius: 10px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 0 8px #0006;
+        }
+        footer {
+            text-align: center;
+            color: #aaa;
+            margin-top: 2em;
+            padding: 1em 0 0 0;
+            border-top: 1px solid #222;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1em;
+            }
+            main section {
+                padding: 1em;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="modded.html">Modded Games</a></li>
-            <li><a href="https://discord.gg/4xScwbaru4 target="_blank">Discord</a></li>
+            <li><a href="https://discord.gg/4xScwbaru4" target="_blank">Discord</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>Lemons Modding Hub</h1>
-        <p>Your source for game modding resources and community!</p>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome!</h2>
-            <p>Explore mods, guides, and connect with fellow modders at Lemons Modding Hub.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Lemons Modding Hub. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Lemons Modding Hub</h1>
+            <p>Your source for modded APKS for Shit VR Games!</p>
+        </header>
+        <main>
+            <section>
+                <h2>Welcome!</h2>
+                <p>Explore mods and download them. These mods are made for META/OCULUS Headsets. </p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Lemons Modding Hub. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
