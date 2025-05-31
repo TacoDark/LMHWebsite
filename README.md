@@ -1,5 +1,5 @@
 # LMHWebsite
-Website for a Discord modding server.
+Website for a Discord VR Modding Server.
 
 ## About
 
